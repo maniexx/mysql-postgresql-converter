@@ -24,8 +24,10 @@ It'll print progress to the terminal.
 
 Finally, load your new dump into a fresh PostgreSQL database using: 
 
-`psql -f databasename.psql`
+`psql -f databasename.psql target_database`
 
+(You need to create a database named `target_database` first).
+ 
 More information
 ----------------
 
